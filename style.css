@@ -76,10 +76,11 @@ a{
 }
 
 .recipe_lnk, .recipe_lnk2{
-	width: 500px;
+	width: 450px;
 	object-fit: cover;
-	margin: 10px;
-	margin-inline: 75px;
+	margin: 50px;
+	margin-bottom: 30px;
+	margin-top: 10px;
 	aspect-ratio: 1/1;
 	box-shadow: 10px 10px 5px #ccc;
 	filter: brightness(1.1);
@@ -94,10 +95,10 @@ a{
 }
 
 .caption{
-	font-size: 20pt;
+	font-size: 23pt;
 	font-family: Shantell Sans;
 	margin-bottom: 50px;
-	margin-top: 15px;
+	margin-top: 0px;
 }
 
 .bottom {
@@ -162,21 +163,33 @@ a{
 	color: #8ea8c3;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
 	.title{
-		font-size: 18vmin;
+		margin-left: 0px;
+		text-align: center;
+		font-size: 13vmin;
+		padding-left: 20px;
 
 	}
 
 	.header_img{
-		width: 18vmin;
+		width: 13vmin;
+		margin-top: 10px;
+		margin-left: 15px;
+		margin-right: 10px;
 	}
 
 	.text, .caption{
-		font-size: 10vmin;
+		font-size: 7vmin;
+	}
+
+	.home_txt{
+		margin-top: -25px;
+		margin-bottom: 25px;
+		width: 100%;
 	}
 
 	.recipe_lnk, .recipe_lnk2{
-		width: 100vmin;
+		width: 80vmin;
 	}	
 }
