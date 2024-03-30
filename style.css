@@ -163,7 +163,7 @@ a{
 	color: #8ea8c3;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 	.title{
 		margin-left: 0px;
 		text-align: center;
